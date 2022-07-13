@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Javascript</title>
+</head>
+<body>
+    <h1 id="title">Javascript</h1>
+
+
+    <script>
+        console.log("Welcome to Javascript!!!!")
+        console.log("This is hello world of JS")
+
+        var counter  = 1
+        var titleRef =  document.getElementById("title")
+        titleRef.addEventListener("click", ()=>{
+            console.log("Clicked on title " + counter + " times")
+            counter = counter + 1 
+            var random1 = Math.floor(Math.random() * 255)
+            var random2 = Math.floor(Math.random() * 255)
+            var random3 = Math.floor(Math.random() * 255)
+            console.log(random1 , random2 , random3);
+            titleRef.style.color = "rgb(" + random1 + "," +  random2  + ", " +  random3 + ")"
+        })
+
+    </script>
+</body>
+</html>
