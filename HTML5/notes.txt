@@ -1,0 +1,12 @@
+HTML -> Hypertext MarkUp Language
+
+<h1> -> elements/tag
+
+<h1></h1>
+<p></p>
+<ol>
+    	<li></li>
+</ol>
+
+attibutes -> power up the elements/tags in which they are used.
+

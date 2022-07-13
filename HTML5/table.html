@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <h1>Table in HTML</h1>
+<h2>Normal table without heading row</h2>
+    <table border="1">
+        <tr>
+            <td>
+                <img src="images/pexels-pixabay-159866.jpg" alt="" width="120">
+            </td>
+            <td>R1 C2</td>
+            <td>R1 C3</td>
+            <td>R1 C4</td>
+            
+        </tr>
+        <tr>
+            <td>R2 C1</td>
+            <td>R2 C2</td>
+            <td>R2 C3</td>
+            <td>R2 C4</td>
+        </tr>
+        <tr>
+            <td>R3 C1</td>
+            <td>R3 C2</td>
+            <td>R3 C3</td>
+            <td>R3 C4</td>
+        </tr>
+        <tr>
+            <td>R4 C1</td>
+            <td>R4 C2</td>
+            <td>R4 C3</td>
+            <td>R4 C4</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Table with heading row</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Continent</th>
+                <th>Pin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>OBB</td>
+                <td>Chennai</td>
+                <td>Asia</td>
+                <td>603004</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>OBBO</td>
+                <td>Kuala Lumpur</td>
+                <td>Asia</td>
+                <td>60450</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>OWIOH</td>
+                <td>Tokyo</td>
+                <td>Asia</td>
+                <td>85412</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <hr>
+    <h2>Table with merged columns</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th colspan="3">Location Details</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>OBB</td>
+                <td>Chennai</td>
+                <td>Asia</td>
+                <td>603004</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>OBBO</td>
+                <td>Kuala Lumpur</td>
+                <td>Asia</td>
+                <td>60450</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>OWIOH</td>
+                <td>Tokyo</td>
+                <td>Asia</td>
+                <td>85412</td>
+            </tr>
+
+        </tbody>
+    </table>
+<hr>
+<h2>Table with merged rows</h2>
+<table border="1" bgcolor="green">
+    <thead>
+        <tr bgcolor="blue">
+            <th>S.no</th>
+            <th>City</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr bgcolor="lightblue">
+            <td rowspan="4">1</td>
+            <td>Chennai</td>
+            <td>OBB</td>
+        </tr>
+        <tr bgcolor="lightblue">
+            
+            <td>Chennai</td>
+            <td>Chi</td>
+        </tr>
+        <tr bgcolor="lightblue">
+            
+            <td>Chennai</td>
+            <td>Raja</td>
+        </tr>
+        <tr bgcolor="lightblue">
+           
+            <td>Chennai</td>
+            <td>Vidya</td>
+        </tr>
+        <tr>
+            <td rowspan="3">2</td>
+            <td>Tokyo</td>
+            <td>Yuko</td>
+        </tr>
+        <tr>
+            
+            <td>Tokyo</td>
+            <td>Mika</td>
+        </tr>
+        <tr>
+            
+            <td>Tokyo</td>
+            <td>Lua</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+            <td>KL</td>
+            <td>Leon</td>
+        </tr>
+        <tr>
+           
+            <td>KL</td>
+            <td>Syan</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

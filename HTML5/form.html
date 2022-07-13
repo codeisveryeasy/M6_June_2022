@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Working with forms in HTML5</h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            Name: <input type="text" value="Air Asia Academy" readonly>
+            <br> <br>
+            Location: <input type="text" required>
+            <br><br>
+            Email: <input type="email" name="" id="">
+            <br><br>
+            Score: <input type="number" name="" id="" min="100" max="200" step="5">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Learn this tech</legend>
+            Do you want to learn web development?
+            <br>
+            <input type="radio" name="learn" id=""> Yes<br>
+             <input type="radio" name="learn" id=""> No<br>
+             <input type="radio" name="learn" id=""> Not sure<br>
+             <input type="radio" name="learn" id=""> Not relevant
+            <br><br>
+            Select all skills you will want to learn as a UI/UX developer?
+            <br>
+            <input type="checkbox" name="skills" id=""> HTML5  <br>
+            <input type="checkbox" name="skills" id=""> CSS3  <br>
+            <input type="checkbox" name="skills" id=""> Javascript <br>
+            <input type="checkbox" name="skills" id=""> React <br>
+            <input type="checkbox" name="skills" id=""> Bootstrap <br>
+            <input type="checkbox" name="skills" id=""> Flexbox <br>
+
+            <br>
+            What is expected upskilling start date?
+            <input type="date" name="" id="" required>
+            <br>
+            Range: <input type=range multiple min=0 max=20 step="1" value="5"> 
+            <br>
+            Favourite color: <input type=color value="#ff0000"> 
+                             <input type=color value="#00ff00"> 
+                              <input type=color value="#0000ff">
+           <!-- 00 01 02 03 04 05 06 07 08 09 A B C D E F-->                   
+            <br><br>
+            Tell something about your life goals:
+            <textarea name="" id="" cols="45" rows="20" style="color: yellow; background-color: blue;"></textarea>
+
+            <br><br>
+            Username: <input type="text" name="" id="">
+            <br>
+            Password: <input type="password" name="" id="">
+        </fieldset>
+
+
+
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
